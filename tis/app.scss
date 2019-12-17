@@ -1,3 +1,5 @@
+$font-alt: 'Baloo Bhai', cursive;
+
 html {
 	
 	// FONT RENDER FIX
@@ -11,7 +13,7 @@ html {
 	-webkit-font-smoothing: antialiased;
 	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 	
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif
 }
 
 
@@ -31,21 +33,63 @@ header {
 	filter: grayscale(1);
 }
 
+h1,h2,h3,h4,h5 {
+	font-family: $font-alt;
+	font-weight: 400;
+}
 
+.font-alt {
+	font-family: $font-alt;
+	font-weight: 400;
+}
+.text-10xl {
+	font-size: 8rem;
+	line-height: 7rem;
+}
 
 // sekce 1
 .one {
+	background: white;
+	position: relative;
 	img[src="/storage/image/s1-1.png"] {
 		position: absolute;
 		left: 25%;
+		top: 0px;
+		max-height: 75vh;
 	}
 	img[src="/storage/image/s1-2.png"] {
 		position: absolute;
 		right: 20%;
-		top: 50%;
+		bottom: 0%;
+		max-height: 75vh;
+	}
+	
+	img[src="/storage/image/s1-32.png"] {
+		position: absolute;
+		left: 50%;
+		top: 0px;
+		max-height: 35vh;
+	}
+	img[src="/storage/image/s1-31.png"] {
+		position: absolute;
+		right: calc(20% - 27vh);
+		bottom: 40%;
+		max-height: 30vh;
 	}
 }
 
+// sekce 2
+.two {
+	background: #fafafa;
+	position: relative;
+}
+
+
+.arrow-down-scroll {
+	img {
+		height: 100px;
+	}
+}
 
 // CUSTOM SIMPLE RESP NAV LIKE ON MODAL BACKEND
 .modal,

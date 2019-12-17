@@ -17,9 +17,9 @@
 		<meta name="msapplication-config" content="/storage/favicon/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
 
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pagepiling-js-version-kostyast@2.0.5/jquery.pagepiling.css">
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Montserrat:400,600&display=swap&subset=latin-ext" rel="stylesheet">
+
 		<link rel="stylesheet" href="/tis/plugin/viewScroller.js/viewScroller.min.css">
-		
 		<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/tis/app-min.css?v=1">
 
@@ -33,36 +33,50 @@
         
         <header class="absolute z-50">
 	        <nav class="uppercase">
-		        <a href="#menu" class="menu modal-trigger" data-modal="modal-name"><img src="/storage/data/menu.svg" onerror="this.onerror=null; this.src='/storage/data/menu.png'" class="inline"> Menu</a> 
+		        <a href="#menu" class="menu modal-trigger" data-modal="modal-name">Menu <img src="/storage/data/menu.svg" onerror="this.onerror=null; this.src='/storage/data/menu.png'" class="inline"></a> 
 	        </nav>
         </header>
         
         
 
 		<!-- Modal -->
-		<div class="modal" id="modal-name">
+		<section class="modal" id="modal-name">
 		  <div class="modal-sandbox"></div>
 		  <div class="modal-box">
 		    <div class="modal-body">
+			    <p class="font-alt text-2xl leading-none">Design Shaker 2015<br>Navigace</p>
 		    	...
 		    </div>
 		  </div>
-		</div>
+		</section>
 
 
 
         <section class="mainbag">
 			<div class="mainview one">
 				
+				<div class="main absolute z-50 mt-20 ml-20">
+					<h1 class="text-10xl">Design<br>Shaker<br>2015</h1>
+					<div class="info-text uppercase text-5xl leading-none text-gray-500 font-alt mt-10 pt-5">
+						<p>19. - 22.3.</p>
+						<p>Pva expo praha</p>
+						<p>letňany</p>
+					</div>
+				</div>
+				
 				<img src="/storage/image/s1-1.png" class="img1" alt="obr1.">
 				<img src="/storage/image/s1-2.png" class="2" alt="obr2.">
 				<img src="/storage/image/s1-31.png" class="31" alt="obr3-1.">
 				<img src="/storage/image/s1-32.png" class="32" alt="obr3-2.">
 				
-				<!-- absolute inset-x-0 bottom-0 mb-5 -->
-				<div class="mb-5"><img src="/storage/data/arrow-down.svg" alt="arrow-down" class="mx-auto"></div>
+				<div class="absolute inset-x-0 bottom-0 mb-3 arrow-down-scroll"><img src="/storage/data/arrow-down.svg" alt="arrow-down" class="mx-auto"></div>
 			</div>
-			<div class="mainview two">Some section</div>
+			<div class="mainview two">
+				<div class="container mx-auto px-4">
+					<h2 class="text-6xl uppercase">O akci</h2>
+				</div>
+				
+			</div>
 			<div class="mainview three">Some section</div>
 			<div class="mainview four">Some section</div>
 			<div class="mainview five">
