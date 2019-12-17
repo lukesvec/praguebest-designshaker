@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26667",
 "files": {
+	"\/crossdomain.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/crossdomain.xml",
+		"oF": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -21,6 +28,103 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/LICENSE",
+		"oF": 0
+		},
+	"\/storage\/favicon\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 20896,
+		"oA": 0,
+		"oAP": "\/storage\/favicon\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/storage\/favicon\/android-chrome-384x384.png": {
+		"ft": 32768,
+		"iS": 58279,
+		"oA": 0,
+		"oAP": "\/storage\/favicon\/android-chrome-384x384.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/storage\/favicon\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 19221,
+		"oA": 0,
+		"oAP": "\/storage\/favicon\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/storage\/favicon\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/storage\/favicon\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/storage\/favicon\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1041,
+		"oA": 0,
+		"oAP": "\/storage\/favicon\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/storage\/favicon\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 2375,
+		"oA": 0,
+		"oAP": "\/storage\/favicon\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/storage\/favicon\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/storage\/favicon\/favicon.ico",
+		"oF": 0
+		},
+	"\/storage\/favicon\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 13989,
+		"oA": 0,
+		"oAP": "\/storage\/favicon\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/storage\/favicon\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/storage\/favicon\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/storage\/favicon\/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/storage\/favicon\/site.webmanifest",
 		"oF": 0
 		},
 	"\/tis\/app-min.css": {
@@ -75,12 +179,12 @@
 	"creationDate": 598267545,
 	"displayValue": "praguebest-designshaker",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-yesBaby",
+	"iconImageName": "\/storage\/favicon\/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -2229,7 +2333,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/"
 	},
 "settingsFileVersion": "3"
 }
