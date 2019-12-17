@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134 134" width="134" height="134">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: transparent;stroke: #dedede;paint-order:stroke fill markers;stroke-width: 4 } 
+		.shp1 { fill: #dedede } 
+	</style>
+	<g>
+		<path class="shp0" d="M67 4.5C101.52 4.5 129.5 32.48 129.5 67C129.5 101.52 101.52 129.5 67 129.5C32.48 129.5 4.5 101.52 4.5 67C4.5 32.48 32.48 4.5 67 4.5Z" />
+		<path class="shp1" d="M64.69 33.43L68.16 33.43L68.16 97.09L64.69 97.09L64.69 33.43Z" />
+		<path class="shp1" d="M44.48 81.38L45.74 78.37L68.08 96.02L66.81 99.03L44.48 81.38Z" />
+		<path class="shp1" d="M88.37 81.38L87.1 78.37L64.77 96.02L66.03 99.03L88.37 81.38Z" />	
+	</g>
+</svg>

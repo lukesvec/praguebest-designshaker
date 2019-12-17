@@ -33,6 +33,19 @@ header {
 
 
 
+// sekce 1
+.one {
+	img[src="/storage/image/s1-1.png"] {
+		position: absolute;
+		left: 25%;
+	}
+	img[src="/storage/image/s1-2.png"] {
+		position: absolute;
+		right: 20%;
+		top: 50%;
+	}
+}
+
 
 // CUSTOM SIMPLE RESP NAV LIKE ON MODAL BACKEND
 .modal,

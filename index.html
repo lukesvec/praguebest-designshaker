@@ -18,6 +18,7 @@
 		<meta name="theme-color" content="#ffffff">
 
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pagepiling-js-version-kostyast@2.0.5/jquery.pagepiling.css">
+		<link rel="stylesheet" href="/tis/plugin/viewScroller.js/viewScroller.min.css">
 		
 		<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/tis/app-min.css?v=1">
@@ -50,12 +51,21 @@
 
 
 
-        <section id="fullpage">
-			<div class="section">Some section</div>
-			<div class="section">Some section</div>
-			<div class="section">Some section</div>
-			<div class="section">Some section</div>
-			<div class="section">
+        <section class="mainbag">
+			<div class="mainview one">
+				
+				<img src="/storage/image/s1-1.png" class="img1" alt="obr1.">
+				<img src="/storage/image/s1-2.png" class="2" alt="obr2.">
+				<img src="/storage/image/s1-31.png" class="31" alt="obr3-1.">
+				<img src="/storage/image/s1-32.png" class="32" alt="obr3-2.">
+				
+				<!-- absolute inset-x-0 bottom-0 mb-5 -->
+				<div class="mb-5"><img src="/storage/data/arrow-down.svg" alt="arrow-down" class="mx-auto"></div>
+			</div>
+			<div class="mainview two">Some section</div>
+			<div class="mainview three">Some section</div>
+			<div class="mainview four">Some section</div>
+			<div class="mainview five">
 				
 				<iframe id="embed-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2557.696445014874!2d14.512305515719778!3d50.12940197943231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470beced033fece5%3A0xcf20ebedc9664978!2sPVA%20EXPO%20PRAHA!5e0!3m2!1scs!2scz!4v1576580543252!5m2!1scs!2scz" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 				
@@ -67,7 +77,11 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         
-        <script src="https://cdn.jsdelivr.net/npm/pagepiling-js-version-kostyast@2.0.5/jquery.pagepiling.min.js"></script>
+<!--         <script src="https://cdn.jsdelivr.net/npm/pagepiling-js-version-kostyast@2.0.5/jquery.pagepiling.min.js"></script> -->
+<!-- 		<script src="/tis/plugin/viewScroller.js/jquery-3.1.0.min.js"></script> -->
+		<script src="/tis/plugin/viewScroller.js/viewScroller.min.js"></script>
+		<script src="/tis/plugin/viewScroller.js/jquery.mousewheel.min.js"></script>
+		<script src="/tis/plugin/viewScroller.js/jquery.easing.min.js"></script>
 		
         <script src="/tis/app-min.js?v=1"></script>
 
