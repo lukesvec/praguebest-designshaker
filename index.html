@@ -17,6 +17,9 @@
 		<meta name="msapplication-config" content="/storage/favicon/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
 
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pagepiling-js-version-kostyast@2.0.5/jquery.pagepiling.css">
+		
+		<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/tis/app-min.css?v=1">
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -26,11 +29,46 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        
+        <header class="absolute z-50">
+	        <nav class="uppercase">
+		        <a href="#menu" class="menu modal-trigger" data-modal="modal-name"><img src="/storage/data/menu.svg" onerror="this.onerror=null; this.src='/storage/data/menu.png'" class="inline"> Menu</a> 
+	        </nav>
+        </header>
+        
+        
+
+		<!-- Modal -->
+		<div class="modal" id="modal-name">
+		  <div class="modal-sandbox"></div>
+		  <div class="modal-box">
+		    <div class="modal-body">
+		    	...
+		    </div>
+		  </div>
+		</div>
+
+
+
+        <section id="fullpage">
+			<div class="section">Some section</div>
+			<div class="section">Some section</div>
+			<div class="section">Some section</div>
+			<div class="section">Some section</div>
+			<div class="section">
+				
+				<iframe id="embed-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2557.696445014874!2d14.512305515719778!3d50.12940197943231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470beced033fece5%3A0xcf20ebedc9664978!2sPVA%20EXPO%20PRAHA!5e0!3m2!1scs!2scz!4v1576580543252!5m2!1scs!2scz" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				
+			</div>
+		</section>
+
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
+        
+        <script src="https://cdn.jsdelivr.net/npm/pagepiling-js-version-kostyast@2.0.5/jquery.pagepiling.min.js"></script>
+		
         <script src="/tis/app-min.js?v=1"></script>
 
     </body>

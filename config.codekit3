@@ -30,6 +30,27 @@
 		"oAP": "\/LICENSE",
 		"oF": 0
 		},
+	"\/storage\/data\/menu.png": {
+		"ft": 32768,
+		"iS": 204,
+		"oA": 0,
+		"oAP": "\/storage\/data\/menu.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/storage\/data\/menu.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/storage\/data\/menu.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/storage\/favicon\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 20896,
@@ -154,7 +175,7 @@
 		"oA": 0,
 		"oAP": "\/tis\/app-min.js",
 		"oF": 1,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/tis\/app.scss": {
